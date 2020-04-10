@@ -56,7 +56,7 @@
                     <rule>
                         <limits>
                             <limit>
-                                <counter>INSTRUCTION</counter>
+                                <counter>BRANCH</counter>
                                 <value>COVEREDRATIO</value>
                                 <minimum>100%</minimum>
                             </limit>
@@ -76,6 +76,7 @@
             <version>5.6.1</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
 </project>
