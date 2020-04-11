@@ -7,15 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ConditionTest {
     @ParameterizedTest
-    @CsvSource({"'Increase current temperature under max temperature',-5,5,6,6",
-            "'Increase current temperature over max temperature',-5,5,-5,-4"
+    @CsvSource({"'Increase current temperature over max temperature',-5,5,6,6",
+            "'Increase current temperature under max temperature',-5,5,-5,-4"
     })
     void shouldIncreaseCurrentTemperature(String testName, int minTemperature, int maxTemperature, int currentTemperature, int expected) {
         Condition conditioner = new Condition();
         conditioner.setMinTemperature(minTemperature);
         conditioner.setMaxTemperature(maxTemperature);
         conditioner.setCurrentTemperature(currentTemperature);
-        conditioner.increaseCurrentTemperature();
+        conditioner.increaseCurrentTemperature(currentTemperature);
         int actual = conditioner.getCurrentTemperature();
         assertEquals(expected, actual);
     }
@@ -29,7 +29,7 @@ class ConditionTest {
         conditioner.setMinTemperature(minTemperature);
         conditioner.setMaxTemperature(maxTemperature);
         conditioner.setCurrentTemperature(currentTemperature);
-        conditioner.decreaseCurrentTemperature();
+        conditioner.decreaseCurrentTemperature(currentTemperature);
         int actual = conditioner.getCurrentTemperature();
         assertEquals(expected, actual);
     }

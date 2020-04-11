@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.domain.RadioTest" time="0.02" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\REA\java_project\hw8\target\test-classes;D:\REA\java_project\hw8\target\classes;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.1\junit-jupiter-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\Катя\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Катя\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Катя\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.1\junit-jupiter-params-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Users\Катя\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\192.7142.36\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\0C18~1\AppData\Local\Temp\surefire14762330058181582204\surefirebooter4413790230128844683.jar C:\Users\Катя\AppData\Local\Temp\surefire14762330058181582204 2020-04-11T08-44-47_809-jvmRun1 surefire9220294812132918333tmp surefire_014066545766094947209tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\REA\java_project\hw8\target\test-classes;D:\REA\java_project\hw8\target\classes;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.1\junit-jupiter-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\Катя\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Катя\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Катя\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.1\junit-jupiter-params-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\Катя\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Катя"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Users\Катя\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\192.7142.36\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\REA\java_project\hw8"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.4" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\0C18~1\AppData\Local\Temp\surefire14762330058181582204\surefirebooter4413790230128844683.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-b304.77"/>
+    <property name="user.name" value="Катя"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Катя\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\0C18~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="D:\REA\java_project\hw8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\Катя\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\192.7142.36\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Катя\AppData\Local\Microsoft\WindowsApps;;C:\Users\Катя\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-b304.77"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldSetCurrentStation{String, int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.001"/>
+  <testcase name="shouldSetCurrentStation{String, int, int}[2]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldSetCurrentStation{String, int, int}[3]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldNextStation{String, int, int}[1]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldNextStation{String, int, int}[2]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldVolumeDown{String, int, int}[1]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldVolumeDown{String, int, int}[2]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldVolumeUp{String, int, int}[1]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldVolumeUp{String, int, int}[2]" classname="ru.netology.domain.RadioTest" time="0"/>
+  <testcase name="shouldPrevStation{String, int, int}[1]" classname="ru.netology.domain.RadioTest" time="0.002"/>
+  <testcase name="shouldPrevStation{String, int, int}[2]" classname="ru.netology.domain.RadioTest" time="0.004"/>
+</testsuite>
