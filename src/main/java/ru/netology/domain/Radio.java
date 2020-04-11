@@ -40,7 +40,7 @@ public class Radio {
 
     public void nextStation(int currentStation) {
         if (currentStation == LastStation) {
-            setCurrentStation(FistStation);
+            this.currentVolume=(FistStation);
             return;
         }
         this.currentStation = (currentStation + 1);
