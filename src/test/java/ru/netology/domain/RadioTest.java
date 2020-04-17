@@ -1,6 +1,5 @@
 package ru.netology.domain;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -37,7 +36,7 @@ class RadioTest {
             "'Set Station under min',-1,10,0",
             "'Set Station normal ',1,10,1"
     })
-    void shouldSetCurrentStation(String testName, int currentStation, int numberStations,int expected) {
+    void shouldSetCurrentStation(String testName, int currentStation, int numberStations, int expected) {
         Radio radio = new Radio(numberStations);
         radio.setCurrentStation(currentStation);
         int actual = radio.getCurrentStation();
