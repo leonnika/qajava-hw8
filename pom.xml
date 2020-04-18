@@ -49,6 +49,7 @@
                         <goals> <!-- какую цель выполняем (берём из справки) -->
                             <goal>check</goal>
                         </goals>
+
                     </execution>
                 </executions>
                 <configuration>

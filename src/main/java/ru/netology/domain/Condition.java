@@ -1,8 +1,11 @@
 package ru.netology.domain;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class Condition {
     private String name;
     private int maxTemperature;

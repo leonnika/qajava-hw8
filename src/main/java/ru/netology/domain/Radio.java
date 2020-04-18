@@ -1,11 +1,10 @@
 package ru.netology.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @NoArgsConstructor
-@Data
+@Getter
+@Setter
 public class Radio {
     private int fistStation = 0;
     private int numberStation = 10;
